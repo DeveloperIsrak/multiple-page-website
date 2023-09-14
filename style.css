@@ -140,3 +140,30 @@ main{
     margin-top: 10px;
     color: white;
 }
+.previous_next_parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.previous_next_parent > h3 > a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(118, 25, 25);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.previous_next_parent > h3 > a > i{
+    color: white;
+}
+
+.previous_next_parent .previous_next_parent_mini a{
+    color: white;
+    text-decoration: none;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    background-color: black;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+}
