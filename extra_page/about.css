@@ -45,11 +45,13 @@ body {
 
 .contact_section_parent{
     width: 1000px;
-    margin: 30px auto;
+    margin: 80px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px 10px rgb(153, 143, 143);
 }
 .contact_section_text{
     width: 350px;
